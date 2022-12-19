@@ -41,3 +41,7 @@
     height: 48px;
 
 }
+
+.btn-cart:hover {
+    background-color: orange;
+}
