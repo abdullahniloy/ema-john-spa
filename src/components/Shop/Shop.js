@@ -32,14 +32,17 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <h3>Order Summary</h3>
-                <p>Selected Items:{cart.length}</p>
+
+
+                <Cartt cart={cart}></Cartt>
+
+                {/* 
                 {
                     cart.map(p => <Cartt
                         key={p.id}
                         cart={p}
                     ></Cartt>)
-                }
+                } */}
             </div>
         </div>
     );
